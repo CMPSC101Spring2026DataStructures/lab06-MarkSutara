@@ -1,7 +1,7 @@
 # CS101 Spring 2026 — Practice Midterm Reflection
 
-Name: Add Your Name Here  
-Date: Add Date Here
+Name: Mark Sutara
+Date: 3/17/2026
 
 After completing the practice test, please reflect on your experience by
 answering the questions below. Replace each `TODO` with a thoughtful response
@@ -17,7 +17,7 @@ Which topics felt most comfortable, and which ones felt most difficult?
 
 **Your Answer:**
 
-TODO
+I felt pretty comfortable with everything.
 
 ---
 
@@ -28,7 +28,7 @@ Explain the concept being tested and describe why the correct answer is right.
 
 **Your Answer:**
 
-TODO
+I was unsure of question 5 because I don't remember it ever being mentioned in class. I looked it up and got the right answer.
 
 ---
 
@@ -39,7 +39,7 @@ with a positive step versus a negative step. Give one original example of each.
 
 **Your Answer:**
 
-TODO
+Positive counts forward, reverse counts backwards. range(1, 5 ,1) is 1-5, range (1, 5, -1) is 5-1.
 
 ---
 
@@ -51,7 +51,7 @@ dictionary and a set. When would you choose each?
 
 **Your Answer:**
 
-TODO
+A list holds a set of data, a tuple holds only a pair. A dictonary has a key and a value, while sets only have values. I would use them depending if I had data that needed to be changed or not.
 
 ---
 
@@ -63,7 +63,10 @@ the caller omits that argument.
 
 **Your Answer:**
 
-TODO
+def add(x=1, y=1):
+    return x + y
+
+Equals 2 by default unless the user specifies otherwise.
 
 ---
 
@@ -81,7 +84,8 @@ for n in range(1, 11):
 
 **Your Answer:**
 
-TODO
+values = n for n in range(1, 11) if n % 3 == 0
+results.append(values * 2)
 
 ---
 
@@ -92,7 +96,7 @@ What is the value of `2 ** 2 ** 3`? Show your step-by-step reasoning.
 
 **Your Answer:**
 
-TODO
+PEMDAS states 2 ** 2 must be first. So it would equal 64.
 
 ---
 
@@ -102,7 +106,7 @@ TODO
 
 **Your Answer:**
 
-TODO
+Classes are ways to organize specific functions in order for the program to look cleaner and be more organized.
 
 ---
 
